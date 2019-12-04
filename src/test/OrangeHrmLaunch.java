@@ -50,7 +50,7 @@ public class OrangeHrmLaunch {
 				ohrmlogin.selectbranch(x);
 				Thread.sleep(500);
 				ohrmlogin.uname(x);
-				Thread.sleep(500);
+				Thread.sleep(5000);
 				ohrmlogin.upwd(x);
 				Thread.sleep(500);
 				ohrmlogin.login();

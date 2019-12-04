@@ -42,7 +42,7 @@ public class OrangeHrmLaunch {
 			{	
 				Thread.sleep(500);
 				Cell c=s.getCell(j, i);
-				String o= (inputdata[j][i]=c.getContents());
+				String x= (inputdata[j][i]=c.getContents());
 				
 			
 				System.out.println(inputdata[j][i]);
